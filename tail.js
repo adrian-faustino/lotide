@@ -12,13 +12,13 @@ const assertEqual = function(actual, expected) {
 };
 
 const tail = function(arr) {
-  if (arr.length <= 0) {
-    return;
+  let newArr = [];
+  if (arr.length === 0) {
+    return newArr;
   } else if (arr.length === 1) {
     return arr[0];
   }
 
-  let newArr = [];
   for (let i = 1; i < arr.length; i++) {
     newArr.push(arr[i]);
   }
