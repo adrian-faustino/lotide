@@ -1,14 +1,3 @@
-const assertEqual = function(actual, expected) {
-  let a = actual;
-  let b = expected;
-  
-  if (a === b) {
-    a
-  } else {
-    return console.log(`Assertion Failed: [${a}] !== [${b}]`);
-  }
-};
-
 const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
@@ -30,7 +19,19 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
-// TEST
-assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
-assertArraysEqual(eqArrays([1, 2, 3], [1, '2', 3]), false);
-assertArraysEqual(eqArrays([1, 2, 3], [1, 3]), false);
+
+const map = function(array, callback) {
+  const results = [];
+
+  for (let item of array) {
+    results.push(callback(item))
+  }
+  return results;
+};
+
+const words = ["ground", "control", "to", "major", "tom"];
+
+let results1 = map(words, word => word[0]);
+console.log(results1);
+
+assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
