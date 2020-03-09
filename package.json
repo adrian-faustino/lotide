@@ -1,0 +1,25 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrian-faustino/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrian-faustino/lotide/issues"
+  },
+  "homepage": "https://github.com/adrian-faustino/lotide#readme",
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  }
+}

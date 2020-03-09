@@ -30,7 +30,4 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
-// TEST
-assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
-assertArraysEqual(eqArrays([1, 2, 3], [1, '2', 3]), false);
-assertArraysEqual(eqArrays([1, 2, 3], [1, 3]), false);
+module.exports = assertArraysEqual;
