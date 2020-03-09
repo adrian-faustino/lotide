@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@adrian_faustino/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lighthouse Labs Week 1 Lotide Project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/adrian-faustino/lotide.git"
   },
-  "author": "",
+  "author": "Adrian Faustino",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/adrian-faustino/lotide/issues"
