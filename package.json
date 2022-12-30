@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/adrian-faustino/lotide#readme",
   "devDependencies": {
-    "mocha": "^7.1.0"
+    "mocha": "^10.2.0"
   }
 }
